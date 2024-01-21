@@ -1,9 +1,9 @@
 github_users:
   - torvalds
-  - alshedivat
+  - taraneh2abd
 
 github_repos:
-  - alshedivat/al-folio
+  - taraneh2abd/taraneh2abd.github.io
   - twbs/bootstrap
   - jekyll/jekyll
   - jquery/jquery
