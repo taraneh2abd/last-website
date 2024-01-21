@@ -117,8 +117,8 @@ pagination:
       {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: " " %}
-    {% assign categories = post.categories | join: " " %}
+    {% assign tags = post.tags | join: "" %}
+    {% assign categories = post.categories | join: "" %}
 
     <li>
 
@@ -153,7 +153,7 @@ pagination:
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
-            {% for tag in tags %}
+            {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
               {% endfor %}
@@ -161,7 +161,7 @@ pagination:
 
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
-            {% for category in categories %}
+            {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}

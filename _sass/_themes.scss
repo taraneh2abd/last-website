@@ -1,34 +1,31 @@
-/*******************************************************************************
- * Themes
- ******************************************************************************/
+:root {
+  --global-bg-color: #ffe4c4;  /* رنگ کرمی پس زمینه */
+  --global-code-bg-color: #f0f0f0; /* رنگ زمینه کد */
+  --global-text-color: #000000;  /* رنگ متن اصلی */
+  --global-text-color-light: #808080;  /* رنگ متن روشن */
+  --global-theme-color: #990000;  /* رنگ زرشکی */
+  --global-hover-color: #990000;  /* رنگ تغییر رنگ هوور */
+  --global-hover-text-color: #ffffff;  /* رنگ متن هوور */
+  --global-footer-bg-color: #404040;  /* رنگ پس زمینه پاورقی */
+  --global-footer-text-color: #cccccc;  /* رنگ متن پاورقی */
+  --global-footer-link-color: #ffffff;  /* رنگ لینک پاورقی */
+  --global-distill-app-color: #808080;  /* رنگ اپلیکیشن Distill */
+  --global-divider-color: rgba(0, 0, 0, 0.1);  /* رنگ خط تقسیم */
+  --global-card-bg-color: #ffffff;  /* رنگ پس زمینه کارت */
 
- :root {
-  --global-bg-color: #7F7E91; /* Purple-Grey */
-  --global-code-bg-color: #D1D0D8; /* Light Grey */
-  --global-text-color: #2E2D37; /* Dark Grey */
-  --global-text-color-light: #7F7E91; /* Purple-Grey */
-  --global-theme-color: #7356BF; /* Lavender Purple */
-  --global-hover-color: #7356BF; /* Lavender Purple */
-  --global-hover-text-color: #FFFFFF; /* White */
-  --global-footer-bg-color: #D1D0D8; /* Light Grey */
-  --global-footer-text-color: #7F7E91; /* Purple-Grey */
-  --global-footer-link-color: #2E2D37; /* Dark Grey */
-  --global-distill-app-color: #7F7E91; /* Purple-Grey */
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #FFFFFF; /* White */
-
-  --global-tip-block: #7356BF; /* Lavender Purple */
-  --global-tip-block-bg: #EAE8F2; /* Light Lavender Grey */
-  --global-tip-block-text: #3B3652; /* Dark Lavender Grey */
-  --global-tip-block-title: #483C67; /* Dark Lavender Purple */
-  --global-warning-block: #E79B00; /* Mustard Yellow */
-  --global-warning-block-bg: #FFF7D2; /* Light Mustard Yellow */
-  --global-warning-block-text: #8B7600; /* Dark Mustard Yellow */
-  --global-warning-block-title: #B27D00; /* Light Mustard Yellow */
-  --global-danger-block: #C00; /* Red */
-  --global-danger-block-bg: #FFD6D6; /* Light Red */
-  --global-danger-block-text: #600; /* Dark Red */
-  --global-danger-block-title: #C00; /* Red */
+  /* بقیه رنگ‌ها */
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
 
   .fa-sun {
     display: none;
@@ -48,32 +45,33 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #2E2D37; /* Dark Grey */
-  --global-code-bg-color: #222029; /* Dark Charcoal Grey */
-  --global-text-color: #7F7E91; /* Purple-Grey */
-  --global-text-color-light: #7F7E91; /* Purple-Grey */
-  --global-theme-color: #4B3E69; /* Dark Lavender Purple */
-  --global-hover-color: #4B3E69; /* Dark Lavender Purple */
-  --global-hover-text-color: #FFFFFF; /* White */
-  --global-footer-bg-color: #7F7E91; /* Purple-Grey */
-  --global-footer-text-color: #2E2D37; /* Dark Grey */
-  --global-footer-link-color: #FFFFFF; /* White */
-  --global-distill-app-color: #7F7E91; /* Purple-Grey */
-  --global-divider-color: #424246;
-  --global-card-bg-color: #2E2D37; /* Dark Grey */
+  --global-bg-color: #404040;  /* رنگ تیره پس زمینه */
+  --global-code-bg-color: #1a1a1a;  /* رنگ تیره زمینه کد */
+  --global-text-color: #cccccc;  /* رنگ تیره متن اصلی */
+  --global-text-color-light: #cccccc;  /* رنگ تیره متن روشن */
+  --global-theme-color: #00cccc;  /* رنگ آبی نیلی */
+  --global-hover-color: #00cccc;  /* رنگ تغییر رنگ هوور */
+  --global-hover-text-color: #ffffff;  /* رنگ تیره متن هوور */
+  --global-footer-bg-color: #a9a9a9;  /* رنگ تیره پس زمینه پاورقی */
+  --global-footer-text-color: #404040;  /* رنگ تیره متن پاورقی */
+  --global-footer-link-color: #000000;  /* رنگ تیره لینک پاورقی */
+  --global-distill-app-color: #cccccc;  /* رنگ تیره اپلیکیشن Distill */
+  --global-divider-color: #424246;  /* رنگ تیره خط تقسیم */
+  --global-card-bg-color: #303030;  /* رنگ تیره پس زمینه کارت */
 
-  --global-tip-block: #4B3E69; /* Dark Lavender Purple */
-  --global-tip-block-bg: #EAE8F2; /* Light Lavender Grey */
-  --global-tip-block-text: #3B3652; /* Dark Lavender Grey */
-  --global-tip-block-title: #483C67; /* Dark Lavender Purple */
-  --global-warning-block: #E79B00; /* Mustard Yellow */
-  --global-warning-block-bg: #FFF7D2; /* Light Mustard Yellow */
-  --global-warning-block-text: #8B7600; /* Dark Mustard Yellow */
-  --global-warning-block-title: #B27D00; /* Light Mustard Yellow */
-  --global-danger-block: #C00; /* Red */
-  --global-danger-block-bg: #FFD6D6; /* Light Red */
-  --global-danger-block-text: #600; /* Dark Red */
-  --global-danger-block-title: #C00; /* Red */
+  /* بقیه رنگ‌ها */
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
 
   .fa-sun {
     padding-left: 10px;
