@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
   - taraneh2abd
 
 github_repos:
   - taraneh2abd/taraneh2abd.github.io
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - taraneh2abd/TF-IDF-search-engine 
+  - taraneh2abd/portfoi_optimization_and_ML_forcasting
+  - taraneh2abd/class-of-life
