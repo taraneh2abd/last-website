@@ -32,7 +32,7 @@ repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/
 repo_trophies:
   enabled: true
   theme_light: buddhism # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: algolia # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: buddhism # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
