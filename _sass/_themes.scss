@@ -1,14 +1,14 @@
 :root {
-  --global-bg-color: #edddd4;  /* بک‌گراند کل صفحه */
+  --global-bg-color: #780000;  /* رنگ اصلی صفحه */
   --global-code-bg-color: #f0f0f0;  /* رنگ زمینه کد */
-  --global-text-color: #000000;  /* رنگ متن اصلی */
+  --global-text-color: #780000;  /* رنگ متن اصلی */
   --global-text-color-light: #808080;  /* رنگ متن روشن */
-  --global-theme-color: #197278;  /* رنگ لینک‌ها */
-  --global-hover-color: #197278;  /* رنگ تغییر رنگ هوور */
+  --global-theme-color: #dab785;  /* رنگ لینک‌ها */
+  --global-hover-color: #dab785;  /* رنگ تغییر رنگ هوور */
   --global-hover-text-color: #ffffff;  /* رنگ متن هوور */
   --global-footer-bg-color: #404040;  /* رنگ پس‌زمینه پاورقی */
   --global-footer-text-color: #cccccc;  /* رنگ متن پاورقی */
-  --global-footer-link-color: #197278;  /* رنگ لینک پاورقی */
+  --global-footer-link-color: #dab785;  /* رنگ لینک پاورقی */
   --global-distill-app-color: #808080;  /* رنگ اپلیکیشن Distill */
   --global-divider-color: rgba(0, 0, 0, 0.1);  /* رنگ خط تقسیم */
   --global-card-bg-color: #ffffff;  /* رنگ پس‌زمینه کارت */
@@ -45,7 +45,7 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #404040;  /* رنگ تیره پس‌زمینه */
+  --global-bg-color: #0a1128;  /* رنگ اصلی صفحه در حالت تیره */
   --global-code-bg-color: #1a1a1a;  /* رنگ تیره زمینه کد */
   --global-text-color: #cccccc;  /* رنگ تیره متن اصلی */
   --global-text-color-light: #cccccc;  /* رنگ تیره متن روشن */
