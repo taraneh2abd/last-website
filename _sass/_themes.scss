@@ -1,31 +1,31 @@
 :root {
-  --global-bg-color: #ffe4c4;  /* رنگ کرمی پس زمینه */
-  --global-code-bg-color: #f0f0f0; /* رنگ زمینه کد */
+  --global-bg-color: #edddd4;  /* بک‌گراند کل صفحه */
+  --global-code-bg-color: #f0f0f0;  /* رنگ زمینه کد */
   --global-text-color: #000000;  /* رنگ متن اصلی */
   --global-text-color-light: #808080;  /* رنگ متن روشن */
-  --global-theme-color: #990000;  /* رنگ زرشکی */
-  --global-hover-color: #990000;  /* رنگ تغییر رنگ هوور */
+  --global-theme-color: #197278;  /* رنگ لینک‌ها */
+  --global-hover-color: #197278;  /* رنگ تغییر رنگ هوور */
   --global-hover-text-color: #ffffff;  /* رنگ متن هوور */
-  --global-footer-bg-color: #404040;  /* رنگ پس زمینه پاورقی */
+  --global-footer-bg-color: #404040;  /* رنگ پس‌زمینه پاورقی */
   --global-footer-text-color: #cccccc;  /* رنگ متن پاورقی */
-  --global-footer-link-color: #ffffff;  /* رنگ لینک پاورقی */
+  --global-footer-link-color: #197278;  /* رنگ لینک پاورقی */
   --global-distill-app-color: #808080;  /* رنگ اپلیکیشن Distill */
   --global-divider-color: rgba(0, 0, 0, 0.1);  /* رنگ خط تقسیم */
-  --global-card-bg-color: #ffffff;  /* رنگ پس زمینه کارت */
+  --global-card-bg-color: #ffffff;  /* رنگ پس‌زمینه کارت */
 
-  /* بقیه رنگ‌ها */
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  /* رنگ‌های دیگر */
+  --global-tip-block: #c44536;
+  --global-tip-block-bg: #f0f0f0;
+  --global-tip-block-text: #c44536;
+  --global-tip-block-title: #c44536;
+  --global-warning-block: #283d3b;
+  --global-warning-block-bg: #f0f0f0;
+  --global-warning-block-text: #283d3b;
+  --global-warning-block-title: #283d3b;
+  --global-danger-block: #772e25;
+  --global-danger-block-bg: #f0f0f0;
+  --global-danger-block-text: #772e25;
+  --global-danger-block-title: #772e25;
 
   .fa-sun {
     display: none;
@@ -45,33 +45,33 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #404040;  /* رنگ تیره پس زمینه */
+  --global-bg-color: #404040;  /* رنگ تیره پس‌زمینه */
   --global-code-bg-color: #1a1a1a;  /* رنگ تیره زمینه کد */
   --global-text-color: #cccccc;  /* رنگ تیره متن اصلی */
   --global-text-color-light: #cccccc;  /* رنگ تیره متن روشن */
-  --global-theme-color: #00cccc;  /* رنگ آبی نیلی */
+  --global-theme-color: #00cccc;  /* رنگ تیره لینک‌ها */
   --global-hover-color: #00cccc;  /* رنگ تغییر رنگ هوور */
   --global-hover-text-color: #ffffff;  /* رنگ تیره متن هوور */
-  --global-footer-bg-color: #a9a9a9;  /* رنگ تیره پس زمینه پاورقی */
+  --global-footer-bg-color: #a9a9a9;  /* رنگ تیره پس‌زمینه پاورقی */
   --global-footer-text-color: #404040;  /* رنگ تیره متن پاورقی */
   --global-footer-link-color: #000000;  /* رنگ تیره لینک پاورقی */
   --global-distill-app-color: #cccccc;  /* رنگ تیره اپلیکیشن Distill */
   --global-divider-color: #424246;  /* رنگ تیره خط تقسیم */
-  --global-card-bg-color: #303030;  /* رنگ تیره پس زمینه کارت */
+  --global-card-bg-color: #303030;  /* رنگ تیره پس‌زمینه کارت */
 
-  /* بقیه رنگ‌ها */
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  /* رنگ‌های دیگر */
+  --global-tip-block: #c44536;
+  --global-tip-block-bg: #1a1a1a;
+  --global-tip-block-text: #c44536;
+  --global-tip-block-title: #c44536;
+  --global-warning-block: #283d3b;
+  --global-warning-block-bg: #1a1a1a;
+  --global-warning-block-text: #283d3b;
+  --global-warning-block-title: #283d3b;
+  --global-danger-block: #772e25;
+  --global-danger-block-bg: #1a1a1a;
+  --global-danger-block-text: #772e25;
+  --global-danger-block-title: #772e25;
 
   .fa-sun {
     padding-left: 10px;

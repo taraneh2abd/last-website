@@ -10,8 +10,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-اینجا کجاست؟؟
-اینجا داخل پابلیکیشن ام دی هست
+look at my recent articles wich i'm currently working on -->
 
 {% bibliography %}
 
