@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: malware detection
+description: malware detection with windows API features
+img: assets/img/Malware-featured.png
 importance: 3
-category: fun
+redirect: https://github.com/taraneh2abd/malware_detection
+category: my projects
 ---
 
 Every project has a beautiful feature showcase page.

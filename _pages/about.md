@@ -2,25 +2,42 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: CE student at IUST
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false
+latest_posts: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
+Hi there! 👋
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+📚  I'm a Bachelor's student in Computer Engineering at [University of Science and Technology](http://ce-inter.iust.ac.ir/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+👨🏻‍💻 My Research interests:
+  - **Machine Learning** (ML)
+  - **Natural Language Processing** (NLP)
+  - **Explainable AI** (XAI)
+
+In addition to my academic pursuits, I am deeply passionate about teaching mathematics and have actively engaged in imparting this knowledge to others. My commitment to the fields of mathematical algorithm design stems from a profound interest in the transformative potential of these disciplines.
+
+Beyond the academic sphere, I have cultivated professional expertise in swimming, chess, and piano. 
+
+
+💬 My Telegram id is [taraneh_abd](https://t.me/taraneh_abd)
+
+🌱 I’m currently learning Machine-Learning
+
+📫 My E-mail address : [taraneh.adbellahi2@gmail.com](mailto:taraneh.adbellahi2@gmail.com)
+
+🛠 check out my latest projects here: [github](https://github.com/taraneh2abd)
+
+🎓 linkedin : [TaraAbd](https://www.linkedin.com/in/tara-abd-b98153250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+<iframe src="https://giphy.com/embed/aNqEFrYVnsS52" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-brighten-yourlaptop-aNqEFrYVnsS52">via GIPHY</a></p>

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: oral_cancer
+description: image proccesing for detecting oral cancer
+img: assets/img/cancers-12-02771-g004.png
 importance: 4
-category: fun
+redirect: https://github.com/taraneh2abd/oraleukoplakia
+category: my projects
 ---
 
 Every project has a beautiful feature showcase page.

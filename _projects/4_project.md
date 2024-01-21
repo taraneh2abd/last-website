@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: optimization
+description: simple clustring for Setting a minimum discount price
+img: assets/img/clus.png
 importance: 3
-category: fun
+redirect: https://github.com/taraneh2abd/discount_clustering
+category: my projects
 ---
 
 Every project has a beautiful feature showcase page.
